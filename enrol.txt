@@ -1,0 +1,11 @@
+       
+
+
+ENROLLMENT:
+CREATE TABLE `enrollments` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `student_username` varchar(100) DEFAULT NULL,
+  `course_name` varchar(100) DEFAULT NULL,
+  `status` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)

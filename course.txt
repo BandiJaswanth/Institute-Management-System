@@ -1,0 +1,14 @@
+
+PAYMENTS:
+CREATE TABLE `payments` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `student_username` varchar(100) DEFAULT NULL,
+  `course_name` varchar(100) DEFAULT NULL,
+  `amount` double DEFAULT NULL,
+  `payment_method` varchar(20) DEFAULT NULL,
+  `payment_ref` varchar(100) DEFAULT NULL,
+  `status` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) 
+
+

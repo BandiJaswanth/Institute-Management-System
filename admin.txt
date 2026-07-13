@@ -1,0 +1,10 @@
+
+ 
+
+
+ADMIN:
+)CREATE TABLE admin (
+  `username` varchar(50) DEFAULT NULL,
+  `password` varchar(50) DEFAULT NULL
+) 
+

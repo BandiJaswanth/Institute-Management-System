@@ -1,0 +1,15 @@
+
+CREATE TABLE employ (
+    employeeId INT PRIMARY KEY AUTO_INCREMENT,
+    fullName VARCHAR(100),
+    gender VARCHAR(20),
+    dob VARCHAR(20),
+    phone VARCHAR(15),
+    email VARCHAR(100),
+    department VARCHAR(100),
+    qualification VARCHAR(100),
+    experience INT,
+    username VARCHAR(50),
+    password VARCHAR(100),
+    status VARCHAR(20)
+);
